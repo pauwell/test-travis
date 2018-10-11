@@ -14,5 +14,5 @@ Please open an issue or pull request if I messed up somewhere ;)
   ```js
     add_executable(test-travis "main.cpp" "hello-world.hpp" *here*)
   ```
-- :fire: Please have a look at the open pull request to see `travis CI` dynamically testing new requests. 
-- :fire: You can see a logging of the build process right [here](https://travis-ci.com/pauwell/test-travis/builds/87586685).
+- :fire: Please take a look at this [pull request](https://github.com/pauwell/travis-ci-with-cplusplus-17/pull/2) to see `travis CI` dynamically testing new requests. 
+- :fire: This [pull request](https://github.com/pauwell/travis-ci-with-cplusplus-17/pull/3) shows how `travis CI` fails if there is an error in the code. 

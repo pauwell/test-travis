@@ -1,8 +1,6 @@
 #include "hello-world.hpp"
  
-/*
-* Testing C++17 features for TravisCI.
-*/
+// Testing C++17 features for TravisCI.
 int main()
 {
   hello_world();

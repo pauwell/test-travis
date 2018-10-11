@@ -12,5 +12,5 @@ Take this repo as your starting point or just copy `.travis.yml` and `CMakeLists
   ```js
     add_executable(test-travis "main.cpp" "test_ext.hpp" ...)
   ```
-- :fire: Please have a look at the open pull request to see `travis` dynamically testing new requests. 
+- :fire: Please have a look at the open pull request to see `travis CI` dynamically testing new requests. 
 - :fire: You can see a logging of the build process right [here](https://travis-ci.com/pauwell/test-travis/builds/87586685).

@@ -1,5 +1,13 @@
-cmake_minimum_required(VERSION 3.9.2)
-
+cmake_minimum_required(VERSION 3.8)
 project(test-travis)
-add_executable(test-travis "main.cpp")
-target_compile_features(test-travis PRIVATE cxx_std_17)
+
+set(CMAKE_CXX_STANDARD 17)
+
+
+set(SOURCE_FILES main.cpp)
+
+
+# Tests
+enable_testing()
+add_subdirectory(tests)
+add_executable(test-travis ${SOURCE_FILES})

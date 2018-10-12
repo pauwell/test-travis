@@ -7,12 +7,6 @@ It is a minimal example on how to get the job done!
 You can take this repo as a reference or just copy `.travis.yml` and `CMakeLists.txt` and adjust them to your needs.
 Please open an issue or pull request if I messed up somewhere ;)
 
-### Features: 
 - :fire: I tried using the least amount of code to get a working example.
-
-- :fire: `CMakeLists.txt`can be expanded to support multiple source files by adding more source files: 
-  ```js
-    add_executable(test-travis "main.cpp" "hello-world.hpp" *here*)
-  ```
 - :fire: Please take a look at this [pull request](https://github.com/pauwell/travis-ci-with-cplusplus-17/pull/2) to see `travis CI` dynamically testing new requests. 
 - :fire: This [pull request](https://github.com/pauwell/travis-ci-with-cplusplus-17/pull/3) shows how `travis CI` fails if there is an error in the code. 

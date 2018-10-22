@@ -1,6 +1,6 @@
 # Travis CI with C++17 :construction_worker:
 
-[![Build Status](https://travis-ci.com/pauwell/test-travis.svg?branch=master)](https://travis-ci.com/pauwell/test-travis)
+[![Build Status](https://travis-ci.com/pauwell/travis-ci-with-cplusplus-17.svg?branch=master)](https://travis-ci.com/pauwell/travis-ci-with-cplusplus-17)
 
 This project emerged after I had a hard time setting up `travis CI`:construction_worker: with `C++17`. 
 It is a minimal example on how to get the job done!
